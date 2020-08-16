@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2vw 0;
+}
+
+h1 {
+    font-size: 5vh;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.tabs {
+    display: inline-block;
+    width: 80vw;
+    margin-top: 4vh;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 6vh;
+    font-size: 3.5vh;
+    background-color: rgba(167, 36, 36, 0.5);
+}
+
+.tabs:nth-of-type(2n) {
+    background-color: rgba(44, 44, 81, 0.7);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.creds {
+    color: whitesmoke;
+    display: block;
+    font-size: 2.5vh;
+    margin-top: 5vh;
+}
