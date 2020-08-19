@@ -18,10 +18,11 @@ body {
     color: whitesmoke;
     text-align: center;
     padding: 2vw 0;
+    text-shadow: 0 0 20px #050201, 0 0 10px #050201, 0 0 3px #050201;
 }
 
 h1 {
-    font-size: 5vh;
+    font-size: 7vh;
     text-transform: capitalize;
     font-weight: normal;
 }
@@ -34,11 +35,11 @@ h1 {
     backdrop-filter: blur(5px);
     padding: 6vh;
     font-size: 3.5vh;
-    background-color: rgba(167, 36, 36, 0.5);
+    background-color: rgba(224, 0, 0, 0.6);
 }
 
 .tabs:nth-of-type(2n) {
-    background-color: rgba(44, 44, 81, 0.7);
+    background-color: rgba(0, 94, 227, 0.6);
 }
 
 a:link, a:visited {
